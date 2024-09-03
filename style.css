@@ -12,15 +12,15 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(135deg, #b993d6, #8ca6db);
+    background: linear-gradient(135deg, #00fffb, #0e2f76);
 }
 
 section {
     background-color: #fff;
-    padding: 40px;
-    border-radius: 10px;
+    padding: 5rem 4rem; ;
+    border-radius: 16px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 500px;
+    max-width: 550px;
     width: 100%;
 }
 
@@ -29,6 +29,7 @@ header {
     font-weight: bolder;
     text-align: start;
     margin-bottom: 24px;
+    margin-top: 32px;
     color: #333;
 }
 
@@ -65,9 +66,9 @@ input[type="date"],
 input[type="number"],
 select {
     width: 100%;
-    padding: 12px;
+    padding: 8px;
     border: 0.5px solid #ccc;
-    border-radius: 4px;
+    border-radius: 8px;
     font-size: 16px;
     outline: none;
 }
@@ -91,9 +92,9 @@ select {
 }
 
 button[type="submit"] {
-    background-color: #8ca6db;
+    background-color: #0e2f76;
     color: #fff;
-    padding: 12px 20px;
+    padding: 12px 32px;
     border: none;
     border-radius: 8px;
     cursor: pointer;
@@ -104,5 +105,10 @@ button[type="submit"] {
     flex: 1 1 100%;
     display: flex;
     justify-content: start;
+}
+
+button[type="submit"]:hover {
+    background-color: #1343aa;
+    transition: 0.3s;
 }
 
