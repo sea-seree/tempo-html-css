@@ -14,3 +14,33 @@ body {
     height: 100vh;
     background: linear-gradient(135deg, #b993d6, #8ca6db);
 }
+
+section {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+}
+
+header {
+    text-align: start;
+    margin-bottom: 24px;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+form div {
+    flex: 1 1 45%;
+}
+
+form div label {
+    margin: 0 0 8px;
+    color: #333;
+}
