@@ -87,7 +87,22 @@ select {
     display: flex;
     padding: 12px 12px 12px 0px;
     justify-content: center;
-    gap: 20px; /* เพิ่มระยะห่างระหว่าง radio buttons */
+    gap: 20px; 
 }
 
+button[type="submit"] {
+    background-color: #8ca6db;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.button-submit {
+    flex: 1 1 100%;
+    display: flex;
+    justify-content: start;
+}
 
